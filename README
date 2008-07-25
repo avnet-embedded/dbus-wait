@@ -1,0 +1,4 @@
+dbus-wait
+===
+
+A simple tool to wait for a specific signal over DBus.
