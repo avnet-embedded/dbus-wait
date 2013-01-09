@@ -56,7 +56,7 @@ main (int argc, char **argv)
   char *match = NULL;
 
   if (argc < 3 || argc > 4) {
-    fprintf (stderr, "$ dbus-watch <INTERFACE> <MEMBER> [PATH]\n");
+    fprintf (stderr, "$ dbus-wait <INTERFACE> <MEMBER> [PATH]\n");
     return EXIT_FAILURE;
   }
 
